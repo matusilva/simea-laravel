@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.inverse {
+  color: white;
+  background-color:#66bb6a;
+  
+}
+
+blockquote {
+  border-left: 5px solid rgb(14, 135, 78); /* Just change the color value and that's it*/
+}
+
+.centralizar-logo {
+  margin: 10px auto;
+  margin-bottom: 11px;
+  width: 180px;
+  height: auto;
+}
+
+.centralizar-logo-ifrn {
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 180px;
+  height: auto;
+}
+
+hr {  
+  color: #fff;
+  background-color: #fff;
+  height: 0px;
+}
+
+.color-red {
+  background: #fe003b;
+  width: 50%;
+  height: 2px;
+  border: #fe003b;
+}
+
+.color-yellow {
+  background: #fece00;
+  width: 50%;
+  height: 2px;
+  border: #fece00;
+}
+
+.color-green {
+  background: #008000;
+  width: 50%;
+  height: 2px;
+  border: #008000;
+}
+
+.color-blue {
+  background: #039be5;
+  width: 50%;
+  height: 2px;
+  border: #039be5;
+}
+
+/* .red-border-bottom {
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  content: "";
+  width: 75%;
+  height: 2px;
+  background: #e96656;
+  bottom: -9px;
+  left: 12.5%;
+} */
+
+ul.sidenav {
+  border-top: 2px solid  #455a64;
+}
+
+.sidenav li.active {
+  background-color:  rgb(14, 135, 78);
+}
+
+.sidenav li.active > a {
+  color: #F0F0F0;
+}
+
+nav.top-nav {
+  height: 122px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-top: 2px solid #455a64;
+  border-bottom: 1px solid rgba(0,0,0,0.14);
+  background-color: transparent;
+  /* position:fixed;
+  z-index: 1; */
+}
+
+a.sidenav-trigger.top-nav {
+  position: absolute;
+  text-align: center;
+  height: 48px;
+  width: 48px;
+  top: 0;
+  left: 5%;
+  float: none;
+  margin-left: 1.5rem;
+  color:  rgb(14, 135, 78);
+  font-size: 36px;
+  z-index: 2;
+}
+
+a.sidenav-trigger.top-nav.full {
+  line-height: 122px;
+}
+
+a.sidenav-trigger.top-nav i {
+  font-size: 32px;
+}
+
+.header {
+  margin: 25px 0 auto;
+  /* color: rgb(14, 135, 78); */
+  color: #1b5e20;
+  font-weight: 300;
+}
+
+.header-responsive {
+  margin: 35px 40px auto;
+  color: #1b5e20;
+  font-weight: 300;
+  font-size:40px;
+}
+
+.sidenav-footer-fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 300px;
+    background-color: #fff;
+    z-index: 1000;
+    border-top: 1px solid rgba(0,0,0,0.14);
+}
+
+.page-footer{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  z-index: 1;
+}
+
+
